@@ -1,0 +1,4 @@
+Bencher-Scenarios-RegexpCommonVsRegexpPattern-*
+.build
+*~
+nytprof*
