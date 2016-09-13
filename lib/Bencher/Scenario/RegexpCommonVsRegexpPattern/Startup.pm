@@ -20,3 +20,9 @@ our $scenario = {
 
 1;
 # ABSTRACT:
+
+=head1 DESCRIPTION
+
+Loading L<Regexp::Common> with C<no_defaults> (i.e. C<use Regexp::Common
+'no_defaults>) actually incurs only a little overhead, compared to just C<use
+Regexp::Common>.
