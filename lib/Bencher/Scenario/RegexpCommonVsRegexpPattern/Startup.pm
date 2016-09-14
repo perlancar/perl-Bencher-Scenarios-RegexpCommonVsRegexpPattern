@@ -10,6 +10,12 @@ use warnings;
 our $scenario = {
     summary => 'Benchmark module startup overhead of Regexp::Common vs Regexp::Pattern',
 
+    # so the benchmark sample result POD displays the mod versions
+    modules => {
+        'Regexp::Common' => 0,
+        'Regexp::Pattern' => 0,
+    },
+
     participants => [
         {name=>'RC_defaults'  , perl_cmdline => ['-MRegexp::Common', '-e1']},
         {name=>'RC_nodefaults', perl_cmdline => ['-MRegexp::Common=no_defaults', '-e1']},
