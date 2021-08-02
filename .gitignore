@@ -2,3 +2,4 @@ Bencher-Scenarios-RegexpCommonVsRegexpPattern-*
 .build
 *~
 nytprof*
+.DS_Store
